@@ -11,3 +11,4 @@ soup = BeautifulSoup(contents.text, 'html.parser')
 # print(soup.prettify())
 data = soup.find_all('div', 'D_asM D_rT M_p_ D_rV M_pB')
 print(data[0].text)
+
